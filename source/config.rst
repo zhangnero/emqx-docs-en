@@ -562,12 +562,18 @@ PubSub Parameters
     mqtt.pubsub.async = true
 
 ----------------------
-MQTT Bridge Parameters
+EMQ X Edge Config Parameters
 ----------------------
+
+EMQ X Edge is a lightweight MQTT messaging broker, which can be running at resource constrained edge devices. 
+
+It provides local data processing, and cloud synchronization which automatically synchronizes data to the cloud, for example, EMQ X Broker deployed on aws.
+
+Config Bridge to a EMQ X Broker on aws:
 
 .. code-block:: properties
 
-    ## Bridge Queue Size
+    ## Bridge address
     mqtt.bridge.max_queue_len = 10000
 
     ## Ping Interval of bridge node. Unit: Second
