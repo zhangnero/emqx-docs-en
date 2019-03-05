@@ -569,15 +569,15 @@ EMQ X Edge is a lightweight MQTT messaging broker, which can be running at resou
 
 It provides local data processing, and cloud synchronization which automatically synchronizes data to the cloud, for example, EMQ X Broker deployed on aws.
 
-Config Bridge to a EMQ X Broker on aws:
+Config Bridge to a EMQ X Broker on aws: host:port for remote broker
 
 .. code-block:: properties
 
     ## Bridge address
-    mqtt.bridge.max_queue_len = 10000
+    bridge.aws.address = 127.0.0.1:1883
 
-    ## Ping Interval of bridge node. Unit: Second
-    mqtt.bridge.ping_down_interval = 1s
+    ## Protocol version of the bridge
+    bridge.aws.proto_ver = mqttv4
 
 -------------------
 Plugins' Etc Folder
