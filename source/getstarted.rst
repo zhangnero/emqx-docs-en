@@ -1,5 +1,5 @@
 
-.. _getstartedx:
+.. _getstartedxxxxxxx:
 
 ===========
 Get Started
