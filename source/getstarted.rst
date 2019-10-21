@@ -2,7 +2,7 @@
 .. _getstarted:
 
 ===========
-Get Startedxxxxxxx
+Get Startedyyy
 ===========
 
 --------
